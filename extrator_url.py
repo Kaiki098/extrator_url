@@ -52,7 +52,7 @@ class ExtratorURL:
     def __eq__(self, other):
         return self.url == other.url
 
-url = "bytebank.com/cambio?quantidade=100&moedaOrigem=real&moedaDestino=dolar"
+url = "bytebank.com/cambio?quantidade=100&moedaOrigem=dolar&moedaDestino=real"
 extrator_url = ExtratorURL(url)
 # print(extrator_url)
 
